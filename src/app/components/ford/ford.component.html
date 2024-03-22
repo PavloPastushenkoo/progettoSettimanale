@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" *ngFor="let car of cars">
+            <div class="card mb-4">
+                <img
+                    src="https://www.kimballstock.com/pix/car/p/{{
+                        car.modelImage
+                    }}"
+                    alt="imagine"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">{{ car.model }}</h5>
+                    <p class="card-text">{{ car.brand }}</p>
+                    <p class="card-text">
+                        <strong>Anno:</strong> {{ car.year }}
+                    </p>
+                    <p class="card-text">
+                        <strong>Prezzo:</strong> {{ car.price }}
+                    </p>
+                    <p class="card-text">
+                        {{ car.available ? "Disponibile" : "Non disponibile" }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

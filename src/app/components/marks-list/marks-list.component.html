@@ -1,0 +1,12 @@
+<div class="marks-container d-flex align-content-center justify-content-around container">
+
+    <div *ngFor="let mark of marks" class="mark-card">
+        <img width="200"
+            [src]="
+                'https://listcarbrands.com/wp-content/uploads/' + mark.brandLogo
+            "
+            alt="Logo "
+            class="brand-logo"
+        />
+    </div>
+</div>
