@@ -8,7 +8,6 @@ import { CarModels } from 'src/app/models/car-models.interface';
 })
 export class MarksListComponent implements OnInit {
     marks: CarModels[] = [];
-https: any;
 
     ngOnInit(): void {
         this.getMarks().then((result) => {
@@ -17,12 +16,26 @@ https: any;
             console.error('Errore nel recupero dei marchi:', error);
         });
     }
-    
+
     async getMarks(): Promise<CarModels[]> {
         try {
             const response = await fetch('../../assets/db.json');
             const marksResponse = await response.json() as CarModels[];
-            return marksResponse.filter((mark) => mark.available);
+
+            // Creare un oggetto mappa per tenere traccia dei marchi già aggiunti per ogni tipo
+            const uniqueMarksMap: { [key: string]: CarModels } = {};
+
+            // Filtrare solo un marchio per ogni tipo
+            marksResponse.forEach(mark => {
+                if (mark.available && !uniqueMarksMap[mark.brandLogo]) {
+                    uniqueMarksMap[mark.brandLogo] = mark;
+                }
+            });
+
+            // Convertire l'oggetto mappa in un array
+            const uniqueMarks = Object.values(uniqueMarksMap);
+
+            return uniqueMarks;
         } catch (error) {
             throw new Error('Errore nel recupero dei dati: ' + error);
         }

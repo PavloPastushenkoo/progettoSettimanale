@@ -1,56 +1,123 @@
 [
     {
         "brand": "Fiat",
-        "brandLogo": "2016/02/Logo-Fiat-600x338.png",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/02/Logo-Fiat-600x338.png",
         "model": "500L",
-        "modelImage": "06/aut-51-iz0284-01p.jpg",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/aut-51-iz0284-01p.jpg",
         "year": 2015,
         "price": 7500,
         "available": false
     },
     {
         "brand": "Fiat",
-        "brandLogo": "2016/02/Logo-Fiat-600x338.png",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/02/Logo-Fiat-600x338.png",
         "model": "500 Abarth",
-        "modelImage": "06/aut-51-iz0271-01p.jpg",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/aut-51-iz0271-01p.jpg",
         "year": 2010,
         "price": 3500,
         "available": true
     },
     {
+        "brand": "Fiat",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/02/Logo-Fiat-600x338.png",
+        "model": "Talento",
+        "modelImage": "https://rent.youcar.it/wp-content/uploads/2017/11/talento-sfondo-bianco-1.png",
+        "year": 2016,
+        "price": 25500,
+        "available": true
+    },
+    {
+        "brand": "Fiat",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/02/Logo-Fiat-600x338.png",
+        "model": "Abarth Punto",
+        "modelImage": "https://c4.wallpaperflare.com/wallpaper/16/473/81/2011-fiat-abarth-punto-evo-esseesse-wallpaper-preview.jpg",
+        "year": 2006,
+        "price": 12000,
+        "available": false
+    },
+
+
+
+
+
+
+
+    {
         "brand": "Ford",
-        "brandLogo": "2016/03/Ford-Logo-600x338.png",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/Ford-Logo-600x338.png",
         "model": "Taurus",
-        "modelImage": "01/aut-15-iz0614-01p.jpg",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/01/aut-15-iz0614-01p.jpg",
         "year": 2009,
         "price": 5200,
         "available": false
     },
     {
         "brand": "Ford",
-        "brandLogo": "2016/03/Ford-Logo-600x338.png",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/Ford-Logo-600x338.png",
         "model": "Focus",
-        "modelImage": "06/aut-50-iz1081-01p.jpg",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/aut-50-iz1081-01p.jpg",
         "year": 2014,
         "price": 9700,
         "available": true
     },
+    
+    {
+        "brand": "Ford",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/Ford-Logo-600x338.png",
+        "model": "Mustang",
+        "modelImage": "https://img.freepik.com/premium-photo/car-isolated-white-background-ford-mustang-white-car-blank-clean-white-backgro-white-black_655090-717363.jpg",
+        "year": 2009,
+        "price": 42000,
+        "available": false
+    },
+    {
+        "brand": "Ford",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2016/03/Ford-Logo-600x338.png",
+        "model": "F150",
+        "modelImage": "https://img.freepik.com/premium-photo/car-isolated-white-background-ford-f150-lightning-white-car-blank-clean-white-white-black_655090-606626.jpg",
+        "year": 2014,
+        "price": 49000,
+        "available": true
+    },
+
+
+
+
+
     {
         "brand": "Audi",
-        "brandLogo": "2015/10/Audi-Logo-600x338.png",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2015/10/Audi-Logo-600x338.png",
         "model": "A3",
-        "modelImage": "05/aut-46-iz0055-01p.jpg",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/05/aut-46-iz0055-01p.jpg",
         "year": 2012,
         "price": 4300,
         "available": true
     },
     {
         "brand": "Audi",
-        "brandLogo": "2015/10/Audi-Logo-600x338.png",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2015/10/Audi-Logo-600x338.png",
         "model": "Q7",
-        "modelImage": "06/aut-51-iz0124-01p.jpg",
+        "modelImage": "https://www.kimballstock.com/pix/car/p/06/aut-51-iz0124-01p.jpg",
         "year": 2020,
         "price": 41700,
+        "available": false
+    },
+    {
+        "brand": "Audi",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2015/10/Audi-Logo-600x338.png",
+        "model": "E-Tron",
+        "modelImage": "https://www.motornet.it/img/modelli/auto/AUD/E-TRON%20GT_1.jpg",
+        "year": 2022,
+        "price": 35000,
+        "available": true
+    },
+    {
+        "brand": "Audi",
+        "brandLogo": "https://listcarbrands.com/wp-content/uploads/2015/10/Audi-Logo-600x338.png",
+        "model": "Q5",
+        "modelImage": "https://image.elite-auto.fr/visuel/AUDI/audi_23q5sline4wdsu2fe_angularfront.png",
+        "year": 2020,
+        "price": 29000,
         "available": false
     }
 ]

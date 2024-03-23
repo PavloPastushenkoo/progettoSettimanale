@@ -8,7 +8,6 @@ import { CarModels } from 'src/app/models/car-models.interface';
 })
 export class FiatComponent implements OnInit{
   cars: CarModels[] = [];
-
   ngOnInit(): void {
       this.getMarks('Fiat')
           .then((result) => {

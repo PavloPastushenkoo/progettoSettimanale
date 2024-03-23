@@ -2,7 +2,7 @@
     <div class="wrapper">
         <div class="banner-image">
             <img
-                src="https://www.kimballstock.com/pix/car/p/{{
+                src="{{
                     mark.modelImage
                 }}"
                 alt="imagine"
@@ -23,6 +23,6 @@
             <span *ngIf="mark.available; else notAvailable">Disponibile</span>
             <ng-template #notAvailable>Non Disponibile</ng-template>
         </h3>
-        <button class="btn fill mt-3">altri modelli: {{ mark.brand }}</button>
+        <a routerLink="/{{mark.brand}}"><button class="btn fill mt-3">altri modelli: {{mark.brand}}</button></a>
     </div>
 </div>
