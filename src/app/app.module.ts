@@ -33,8 +33,12 @@ const route: Route[]= [
     component: AudiComponent,
   },
   {
-    path: '**',
-    component: PageNotFoundComponent
+    path: "error404",
+    component: PageNotFoundComponent,
+  },
+  {
+    path: "**",
+    redirectTo: "error404"
   }
 ]
 
