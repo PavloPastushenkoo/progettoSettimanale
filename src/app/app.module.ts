@@ -14,6 +14,7 @@ import { FordComponent } from './components/ford/ford.component';
 import { Route, Router, RouterModule } from '@angular/router';
 import { AudiComponent } from './components/audi/audi.component';
 import { CardMarcaComponent } from './components/card-marca/card-marca.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 const route: Route[]= [
   {
     path: '',
@@ -30,6 +31,10 @@ const route: Route[]= [
   {
     path: 'Audi',
     component: AudiComponent,
+  },
+  {
+    path: '**',
+    component: PageNotFoundComponent
   }
 ]
 
@@ -46,7 +51,8 @@ const route: Route[]= [
     FiatComponent,
     FordComponent,
     AudiComponent,
-    CardMarcaComponent
+    CardMarcaComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
